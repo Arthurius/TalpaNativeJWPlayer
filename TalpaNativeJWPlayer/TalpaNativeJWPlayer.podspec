@@ -1,6 +1,5 @@
 Pod::Spec.new do |spec|
   spec.name = "TalpaNativeJWPlayer"
-  spec.version = "1.0.0"
   spec.summary = "Talpa JW Player"
   spec.license = { type: 'MIT', file: 'LICENSE' }
   spec.homepage = "https://github.com/Arthurius/TalpaNativeJWPlayer"
