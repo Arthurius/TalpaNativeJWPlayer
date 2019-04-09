@@ -2,33 +2,30 @@
 //  TalpaNativeJWPlayerTests.swift
 //  TalpaNativeJWPlayerTests
 //
-//  Created by Arthur Schenk on 08/04/2019.
+//  Created by Arthur Schenk on 09/04/2019.
 //  Copyright © 2019 Talpa Network. All rights reserved.
 //
 
-import XCTest
-@testable import TalpaNativeJWPlayer
+import Quick
+import Nimble
+import TalpaNativeJWPlayer
 
-class TalpaNativeJWPlayerTests: XCTestCase {
+class TalpaNativeJWPlayerTests: QuickSpec {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    override func spec() {
+        describe("TalpaNativeJWPlayer") {
+            it("works") {
+                expect(true).to(beTrue())
+            }
+        }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+        describe("TalpaNativeJWPlayer Test") {
+            it("returns a description") {
+                let sut = TalpaNativeJWPlayer()
+                let result = sut.test()
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+                expect(result).to(beAKindOf(String.self))
+            }
         }
     }
-
 }

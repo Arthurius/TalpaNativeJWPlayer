@@ -9,8 +9,6 @@
 import Foundation
 import TealiumIOS
 
-
-
 public class TalpaNativeJWPlayer {
 
     let tealium: Tealium
@@ -24,7 +22,7 @@ public class TalpaNativeJWPlayer {
         self.tealium = Tealium.newInstance(forKey: "kijk-tealium", configuration: tealConfig)
     }
     
-    public func test() {
-        print(tealium.description)
+    public func test() -> String {
+        return tealium.description
     }
 }

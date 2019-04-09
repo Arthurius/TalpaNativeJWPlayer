@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1436D7FB9CBAF7E8D2ED5117 /* Pods_TalpaNativeJWPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52958F86CF106264A25E686F /* Pods_TalpaNativeJWPlayer.framework */; };
-		AC959A7D225B8E5C00A29023 /* TalpaNativeJWPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC959A73225B8E5C00A29023 /* TalpaNativeJWPlayer.framework */; };
-		AC959A82225B8E5C00A29023 /* TalpaNativeJWPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC959A81225B8E5C00A29023 /* TalpaNativeJWPlayerTests.swift */; };
+		41AAE0618932312229FDED28 /* Pods_TalpaNativeJWPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C9A921396C7A204C52FD96 /* Pods_TalpaNativeJWPlayerTests.framework */; };
+		AC1D1DFD225CCB1400824B0C /* TalpaNativeJWPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D1DFC225CCB1400824B0C /* TalpaNativeJWPlayerTests.swift */; };
+		AC1D1DFF225CCB1400824B0C /* TalpaNativeJWPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC959A73225B8E5C00A29023 /* TalpaNativeJWPlayer.framework */; };
 		AC959A84225B8E5C00A29023 /* TalpaNativeJWPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC959A76225B8E5C00A29023 /* TalpaNativeJWPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC959A90225B978200A29023 /* TalpaNativeJWPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC959A8F225B978200A29023 /* TalpaNativeJWPlayer.swift */; };
+		ACB2FD3B225CD01600A1BD06 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB2FD3A225CD01600A1BD06 /* Nimble.framework */; };
+		ACB2FD3D225CD01600A1BD06 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB2FD3C225CD01600A1BD06 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC959A7E225B8E5C00A29023 /* PBXContainerItemProxy */ = {
+		ACB2FD3E225CD22A00A1BD06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AC959A6A225B8E5C00A29023 /* Project object */;
 			proxyType = 1;
@@ -28,29 +31,39 @@
 		4DC2FAAF65FF2F1E74318E67 /* Pods-TalpaNativeJWPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalpaNativeJWPlayer.debug.xcconfig"; path = "Target Support Files/Pods-TalpaNativeJWPlayer/Pods-TalpaNativeJWPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		52958F86CF106264A25E686F /* Pods_TalpaNativeJWPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalpaNativeJWPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E1F727E3F79B9CC8D56A9 /* Pods-TalpaNativeJWPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalpaNativeJWPlayer.release.xcconfig"; path = "Target Support Files/Pods-TalpaNativeJWPlayer/Pods-TalpaNativeJWPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		AC1D1DFA225CCB1300824B0C /* TalpaNativeJWPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalpaNativeJWPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1D1DFC225CCB1400824B0C /* TalpaNativeJWPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalpaNativeJWPlayerTests.swift; sourceTree = "<group>"; };
+		AC1D1DFE225CCB1400824B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC959A73225B8E5C00A29023 /* TalpaNativeJWPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TalpaNativeJWPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC959A76225B8E5C00A29023 /* TalpaNativeJWPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalpaNativeJWPlayer.h; sourceTree = "<group>"; };
 		AC959A77225B8E5C00A29023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC959A7C225B8E5C00A29023 /* TalpaNativeJWPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalpaNativeJWPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC959A81225B8E5C00A29023 /* TalpaNativeJWPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalpaNativeJWPlayerTests.swift; sourceTree = "<group>"; };
-		AC959A83225B8E5C00A29023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC959A8F225B978200A29023 /* TalpaNativeJWPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalpaNativeJWPlayer.swift; sourceTree = "<group>"; };
+		AC959AD4225CA02300A29023 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC959AD6225CA02300A29023 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2FD3A225CD01600A1BD06 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2FD3C225CD01600A1BD06 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000AD4B777009C9D39D90C9 /* Pods-TalpaNativeJWPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalpaNativeJWPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-TalpaNativeJWPlayerTests/Pods-TalpaNativeJWPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C9A921396C7A204C52FD96 /* Pods_TalpaNativeJWPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalpaNativeJWPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4837501E45C66930F4BF80A /* Pods-TalpaNativeJWPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalpaNativeJWPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-TalpaNativeJWPlayerTests/Pods-TalpaNativeJWPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC1D1DF7225CCB1300824B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB2FD3B225CD01600A1BD06 /* Nimble.framework in Frameworks */,
+				ACB2FD3D225CD01600A1BD06 /* Quick.framework in Frameworks */,
+				AC1D1DFF225CCB1400824B0C /* TalpaNativeJWPlayer.framework in Frameworks */,
+				41AAE0618932312229FDED28 /* Pods_TalpaNativeJWPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC959A70225B8E5C00A29023 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1436D7FB9CBAF7E8D2ED5117 /* Pods_TalpaNativeJWPlayer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC959A79225B8E5C00A29023 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC959A7D225B8E5C00A29023 /* TalpaNativeJWPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +73,12 @@
 		7CE8E246F9CC810C8B2B2FEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACB2FD3A225CD01600A1BD06 /* Nimble.framework */,
+				ACB2FD3C225CD01600A1BD06 /* Quick.framework */,
+				AC959AD4225CA02300A29023 /* Nimble.framework */,
+				AC959AD6225CA02300A29023 /* Quick.framework */,
 				52958F86CF106264A25E686F /* Pods_TalpaNativeJWPlayer.framework */,
+				B0C9A921396C7A204C52FD96 /* Pods_TalpaNativeJWPlayerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,15 +88,26 @@
 			children = (
 				4DC2FAAF65FF2F1E74318E67 /* Pods-TalpaNativeJWPlayer.debug.xcconfig */,
 				666E1F727E3F79B9CC8D56A9 /* Pods-TalpaNativeJWPlayer.release.xcconfig */,
+				B000AD4B777009C9D39D90C9 /* Pods-TalpaNativeJWPlayerTests.debug.xcconfig */,
+				D4837501E45C66930F4BF80A /* Pods-TalpaNativeJWPlayerTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC1D1DFB225CCB1400824B0C /* TalpaNativeJWPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D1DFC225CCB1400824B0C /* TalpaNativeJWPlayerTests.swift */,
+				AC1D1DFE225CCB1400824B0C /* Info.plist */,
+			);
+			path = TalpaNativeJWPlayerTests;
 			sourceTree = "<group>";
 		};
 		AC959A69225B8E5C00A29023 = {
 			isa = PBXGroup;
 			children = (
 				AC959A75225B8E5C00A29023 /* TalpaNativeJWPlayer */,
-				AC959A80225B8E5C00A29023 /* TalpaNativeJWPlayerTests */,
+				AC1D1DFB225CCB1400824B0C /* TalpaNativeJWPlayerTests */,
 				AC959A74225B8E5C00A29023 /* Products */,
 				8F05F0336A3F04EEF7386443 /* Pods */,
 				7CE8E246F9CC810C8B2B2FEF /* Frameworks */,
@@ -89,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				AC959A73225B8E5C00A29023 /* TalpaNativeJWPlayer.framework */,
-				AC959A7C225B8E5C00A29023 /* TalpaNativeJWPlayerTests.xctest */,
+				AC1D1DFA225CCB1300824B0C /* TalpaNativeJWPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,15 +131,6 @@
 				AC959A8F225B978200A29023 /* TalpaNativeJWPlayer.swift */,
 			);
 			path = TalpaNativeJWPlayer;
-			sourceTree = "<group>";
-		};
-		AC959A80225B8E5C00A29023 /* TalpaNativeJWPlayerTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC959A81225B8E5C00A29023 /* TalpaNativeJWPlayerTests.swift */,
-				AC959A83225B8E5C00A29023 /* Info.plist */,
-			);
-			path = TalpaNativeJWPlayerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		AC1D1DF9225CCB1300824B0C /* TalpaNativeJWPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1D1E04225CCB1400824B0C /* Build configuration list for PBXNativeTarget "TalpaNativeJWPlayerTests" */;
+			buildPhases = (
+				CF221D5A93D0A6373E602580 /* [CP] Check Pods Manifest.lock */,
+				AC1D1DF6225CCB1300824B0C /* Sources */,
+				AC1D1DF7225CCB1300824B0C /* Frameworks */,
+				AC1D1DF8225CCB1300824B0C /* Resources */,
+				9278CBAB50211729A6AA60CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB2FD3F225CD22A00A1BD06 /* PBXTargetDependency */,
+			);
+			name = TalpaNativeJWPlayerTests;
+			productName = TalpaNativeJWPlayerTests;
+			productReference = AC1D1DFA225CCB1300824B0C /* TalpaNativeJWPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AC959A72225B8E5C00A29023 /* TalpaNativeJWPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC959A87225B8E5C00A29023 /* Build configuration list for PBXNativeTarget "TalpaNativeJWPlayer" */;
@@ -146,24 +186,6 @@
 			productReference = AC959A73225B8E5C00A29023 /* TalpaNativeJWPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AC959A7B225B8E5C00A29023 /* TalpaNativeJWPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC959A8A225B8E5C00A29023 /* Build configuration list for PBXNativeTarget "TalpaNativeJWPlayerTests" */;
-			buildPhases = (
-				AC959A78225B8E5C00A29023 /* Sources */,
-				AC959A79225B8E5C00A29023 /* Frameworks */,
-				AC959A7A225B8E5C00A29023 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC959A7F225B8E5C00A29023 /* PBXTargetDependency */,
-			);
-			name = TalpaNativeJWPlayerTests;
-			productName = TalpaNativeJWPlayerTests;
-			productReference = AC959A7C225B8E5C00A29023 /* TalpaNativeJWPlayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,12 +196,12 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Talpa Network";
 				TargetAttributes = {
+					AC1D1DF9225CCB1300824B0C = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					AC959A72225B8E5C00A29023 = {
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
-					};
-					AC959A7B225B8E5C00A29023 = {
-						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
@@ -196,20 +218,20 @@
 			projectRoot = "";
 			targets = (
 				AC959A72225B8E5C00A29023 /* TalpaNativeJWPlayer */,
-				AC959A7B225B8E5C00A29023 /* TalpaNativeJWPlayerTests */,
+				AC1D1DF9225CCB1300824B0C /* TalpaNativeJWPlayerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC959A71225B8E5C00A29023 /* Resources */ = {
+		AC1D1DF8225CCB1300824B0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC959A7A225B8E5C00A29023 /* Resources */ = {
+		AC959A71225B8E5C00A29023 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,9 +263,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9278CBAB50211729A6AA60CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalpaNativeJWPlayerTests/Pods-TalpaNativeJWPlayerTests-frameworks.sh",
+				"${PODS_ROOT}/TealiumIOS/TealiumIOS.framework",
+				"${PODS_ROOT}/TealiumIOS/TealiumIOS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TealiumIOS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/TealiumIOS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalpaNativeJWPlayerTests/Pods-TalpaNativeJWPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF221D5A93D0A6373E602580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalpaNativeJWPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC1D1DF6225CCB1300824B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1D1DFD225CCB1400824B0C /* TalpaNativeJWPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC959A6F225B8E5C00A29023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,25 +328,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC959A78225B8E5C00A29023 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC959A82225B8E5C00A29023 /* TalpaNativeJWPlayerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC959A7F225B8E5C00A29023 /* PBXTargetDependency */ = {
+		ACB2FD3F225CD22A00A1BD06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AC959A72225B8E5C00A29023 /* TalpaNativeJWPlayer */;
-			targetProxy = AC959A7E225B8E5C00A29023 /* PBXContainerItemProxy */;
+			targetProxy = ACB2FD3E225CD22A00A1BD06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AC1D1E02225CCB1400824B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000AD4B777009C9D39D90C9 /* Pods-TalpaNativeJWPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2N6F5RHWC;
+				INFOPLIST_FILE = TalpaNativeJWPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talpa.TalpaNativeJWPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1D1E03225CCB1400824B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4837501E45C66930F4BF80A /* Pods-TalpaNativeJWPlayerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2N6F5RHWC;
+				INFOPLIST_FILE = TalpaNativeJWPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talpa.TalpaNativeJWPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AC959A85225B8E5C00A29023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -407,7 +513,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TalpaNativeJWPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +541,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TalpaNativeJWPlayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,47 +554,18 @@
 			};
 			name = Release;
 		};
-		AC959A8B225B8E5C00A29023 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2N6F5RHWC;
-				INFOPLIST_FILE = TalpaNativeJWPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.talpa.TalpaNativeJWPlayerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AC959A8C225B8E5C00A29023 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2N6F5RHWC;
-				INFOPLIST_FILE = TalpaNativeJWPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.talpa.TalpaNativeJWPlayerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC1D1E04225CCB1400824B0C /* Build configuration list for PBXNativeTarget "TalpaNativeJWPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1D1E02225CCB1400824B0C /* Debug */,
+				AC1D1E03225CCB1400824B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AC959A6D225B8E5C00A29023 /* Build configuration list for PBXProject "TalpaNativeJWPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -505,15 +580,6 @@
 			buildConfigurations = (
 				AC959A88225B8E5C00A29023 /* Debug */,
 				AC959A89225B8E5C00A29023 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC959A8A225B8E5C00A29023 /* Build configuration list for PBXNativeTarget "TalpaNativeJWPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC959A8B225B8E5C00A29023 /* Debug */,
-				AC959A8C225B8E5C00A29023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
